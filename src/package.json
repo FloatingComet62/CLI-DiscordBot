@@ -1,0 +1,33 @@
+{
+  "name": "cli-bot",
+  "version": "0.0.1",
+  "description": "A CLI with allows you to send and receive discord messages!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloatingComet62/CLI-DiscordBot.git"
+  },
+  "keywords": [
+    "CLI",
+    "Discord",
+    "Bot"
+  ],
+  "author": "FloatingComet62",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FloatingComet62/CLI-DiscordBot/issues"
+  },
+  "homepage": "https://github.com/FloatingComet62/CLI-DiscordBot#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "discord.js": "^13.6.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.0"
+  }
+}
