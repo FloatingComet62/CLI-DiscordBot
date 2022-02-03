@@ -26,7 +26,7 @@ async function sendMessage(){
 async function changeChannel(){
     let channelName = await cli.Question("Which Channel? >")
     channelName = channelName.split(' ').join('-')
-    const channelList = Client.channels.cache.filter(channel => channel.name == channelName)
+    const channelList = Client.channels.cache.filter(channel => channel.name.includes(channelName))
     const channelList_Name = channelList.map(channel => channel.name)
     const channelList_Guild = channelList.map(channel => channel.guild)
     const channelList_Id = channelList.map(channel => channel.id)
