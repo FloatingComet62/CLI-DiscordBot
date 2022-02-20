@@ -1,2 +1,2 @@
 # CLI-DiscordBot
-A CLI with allows you to send and receive discord messages!
+A CLI which allows you to send and receive discord messages!
